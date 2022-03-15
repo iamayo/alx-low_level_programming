@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_sign - Entr point
- * @n: input.
+ * print_sign - Entry point
+ * @n: carrier variable
  * Description: A function that prints the sign of a number
  * Returns: 1 if n>0, 0 if n == 0, -1 if n<0
  */
