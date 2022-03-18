@@ -7,10 +7,10 @@
 void print_diagonal(int n)
 {
 int i = 0, j;
-for (i < n && n > 0)
+while (i < n && n > 0)
 {
 j = 0;
-for (j < i)
+while (j < i)
 {
 _putchar(' ');
 j++;
