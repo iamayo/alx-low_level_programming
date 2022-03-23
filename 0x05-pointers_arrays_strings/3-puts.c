@@ -9,5 +9,9 @@
  */
 void _puts(char *str)
 {
-write(1, str, 64);
+int c;
+for (c = 0; str[c] != 0; c++)
+{
+putchar(str[c]);
+}
 }
