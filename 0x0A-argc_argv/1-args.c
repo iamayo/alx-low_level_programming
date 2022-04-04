@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[]__attribue__((unused)))
+int main(int argc, __attribute__((unused)) char *argv[])
 {
 	if (argc > 0)
 	{
