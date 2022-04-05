@@ -25,12 +25,11 @@ char *_strdup(char *str)
 
 	if (str_copy == NULL)
 		return (NULL);
-
-	 x = 0; 
-	 while (x < size)
+	x = 0;
+	while (x < size)
 	{
-		 *(str_copy + x) = *(str + x);
-		 x++;
+		*(str_copy + x) = *(str + x);
+		x++;
 	}
 	return (str_copy);
 }
