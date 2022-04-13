@@ -2,14 +2,14 @@ include "dog.h"
 #include <stdio.h>
 
 /**
- *print_dog - prints a struct dog.
- *@d: variable
+ * print_dog - prints a struct dog.
+ * @d: variable
  */
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
 		return;
-	if (d ->name == NULL)
+	if (d->name == NULL)
 	{
 		printf("Name: (nil)\n");
 	}
@@ -23,3 +23,4 @@ void print_dog(struct dog *d)
 	{
 		printf("Owner: (nil)\n");
 	}
+}
