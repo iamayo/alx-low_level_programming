@@ -1,13 +1,10 @@
-#include "dog.h"
 #include <stdio.h>
-#include <stdlib.h>
-
+#include "dog.h"
 /**
  * _strlen - find length of string
  * @s: string
  * Return: length
  */
-
 int _strlen(char *s)
 {
 	int count;
@@ -15,14 +12,12 @@ int _strlen(char *s)
 	for (count = 0; s[count]; count++)
 		return (count);
 }
-
 /**
  * _strcpy - copy strings pointed to
  * @dest: end pointer
  * @src: begin pointer
  * Return: pointer to dest
  */
-
 char *_strcpy(char *dest, char *src)
 {
 	int a = 0;
@@ -31,7 +26,6 @@ char *_strcpy(char *dest, char *src)
 		dest[a] = src[a];
 	return (dest);
 }
-
 /**
  * new_dog - create new instance of struct dog
  * @name: 1st element
@@ -78,8 +72,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		dog->owner = _strcpy(copy_owner, owner);
 	}
 	else
-	{
 		dog->owner = NULL;
-	}
 	return (dog);
 }
